@@ -5,7 +5,7 @@ const mongodb = require("mongodb")
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const mongoClient = mongodb.MongoClient;
-const URL = "mongodb+srv://admin:admin123@cluster0.hijj3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const URL = "mongodb+srv://nathiya:Nathi123@cluster0.fjrgjvk.mongodb.net/?retryWrites=true&w=majority"
 const secret = "jGa3BhjuS2Msg"
 app.use(express.json());
 app.use(cors({
